@@ -21,13 +21,11 @@ function App() {
         <h1 className="mainTitle">PERSONAGENS</h1>
 
         <StyledButton
-          disabled={!characterList.info.prev}
           onClick={() => setCurrentPage(clearBaseURL(characterList.info.prev))}
         >
           Página anterior
         </StyledButton>
         <StyledButton
-          disabled={!characterList.info.next}
           onClick={() => setCurrentPage(clearBaseURL(characterList.info.next))}
         >
           Pŕoxima página

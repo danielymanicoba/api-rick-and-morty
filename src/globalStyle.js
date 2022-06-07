@@ -30,7 +30,6 @@ export const StyledButton = styled.button`
       return css`
         cursor: not-allowed;
         background: #b2bebf;
-        border: 2px #b2bebf;
         opacity: 0.9;
       `;
     } else {
